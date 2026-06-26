@@ -1,0 +1,574 @@
+[
+    {
+        "id": "bf01f7e86a4f7388",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "06b334faad13d40e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#770968",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#783037",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#783037",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#783037",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#af4650",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#783037",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 8,
+                "cy": 8,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2741aeb0f1451eee",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e7749421302b9b85",
+        "type": "ui_group",
+        "name": "Real-time Sensor Data",
+        "tab": "2741aeb0f1451eee",
+        "order": 1,
+        "disp": false,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7466853a2ec6b797",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "542b91cbd6bfb408",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72a03804866b1dde",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d56828236acfd851",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3f8a1f58b68b29a1",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0cad6f52769248a3",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "37fef512fc8fb1b7",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a3372c169f5f7af0",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c5d67349c308f1ae",
+        "type": "ui_spacer",
+        "z": "bf01f7e86a4f7388",
+        "name": "spacer",
+        "group": "e7749421302b9b85",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ad79377d87c3fa5d",
+        "type": "inject",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "props": [
+            {
+                "p": "timestamp",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "temperature",
+        "x": 160,
+        "y": 80,
+        "wires": [
+            [
+                "bdc559e30c73e5ca"
+            ]
+        ]
+    },
+    {
+        "id": "bdc559e30c73e5ca",
+        "type": "function",
+        "z": "bf01f7e86a4f7388",
+        "name": "Floating Data Generator",
+        "func": "// 20.00 se 35.00 ke beech random floating value generate karne ke liye\nlet min = 20.0;\nlet max = 35.0;\nlet randomFloat = Math.random() * (max - min) + min;\n\n// Decimal ke baad sirf 2 digits rakhne ke liye (e.g., 26.45)\nmsg.payload = parseFloat(randomFloat.toFixed(2)); \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 80,
+        "wires": [
+            [
+                "bd839f1a51fee179",
+                "9bc99bfc491b9b56"
+            ]
+        ]
+    },
+    {
+        "id": "bd839f1a51fee179",
+        "type": "ui_gauge",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "group": "e7749421302b9b85",
+        "order": 8,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Live Temperature (°C)",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "25",
+        "max": "28",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 800,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9bc99bfc491b9b56",
+        "type": "ui_chart",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "group": "e7749421302b9b85",
+        "order": 1,
+        "width": 13,
+        "height": 4,
+        "label": "chart",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b35b416017d0e55f",
+        "type": "function",
+        "z": "bf01f7e86a4f7388",
+        "name": "Humidity",
+        "func": "// Pehle se saved value ko read karein ya 50.0 se start karein\nlet currentHumid = context.get('currentHumid') || 50.0;\n\n// Randomly value ko thoda badhayein ya ghatayein (-0.5 se +0.5 ke beech)\nlet change = (Math.random() - 0.5) * 1.0;\ncurrentHumid += change;\n\n// Limit set karein taaki humidity 40% se 80% ke beech hi rahe\nif (currentHumid < 40) currentHumid = 40;\nif (currentHumid > 80) currentHumid = 80;\n\n// Value save karein agli baar ke liye\ncontext.set('currentHumid', currentHumid);\nmsg.load=\"humidity\";\nmsg.payload = parseFloat(currentHumid.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 600,
+        "wires": [
+            [
+                "9bc99bfc491b9b56",
+                "606f2c806ef796b9"
+            ]
+        ]
+    },
+    {
+        "id": "a35630dd8f8c3cf4",
+        "type": "function",
+        "z": "bf01f7e86a4f7388",
+        "name": "Power",
+        "func": "// Base power 5.0 kW, isme random spikes add karenge\nlet basePower = 5.0;\nlet fluctuation = Math.random() * 3.5; // 0 se 3.5 kW ka variation\n\nlet totalPower = basePower + fluctuation;\nmsg.topic=\"power\";\nmsg.payload = parseFloat(totalPower.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "9bc99bfc491b9b56",
+                "2c2aa50dcee4ddf9"
+            ]
+        ]
+    },
+    {
+        "id": "aed331f09ca90772",
+        "type": "function",
+        "z": "bf01f7e86a4f7388",
+        "name": "Vibration",
+        "func": "// Vibration (g-force) jo har second bohot tezi se badal raha hai\nlet minVib = 0.1;\nlet maxVib = 2.5;\nlet vibration = Math.random() * (maxVib - minVib) + minVib;\nmsg.topic=\"Vibration\";\nmsg.payload = parseFloat(vibration.toFixed(3)); // 3 decimal places tak\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "9bc99bfc491b9b56",
+                "9972afa54ef11930"
+            ]
+        ]
+    },
+    {
+        "id": "9846482461bc9e82",
+        "type": "inject",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Vibration",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "aed331f09ca90772"
+            ]
+        ]
+    },
+    {
+        "id": "b2c9af1f771e8036",
+        "type": "inject",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Power",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "a35630dd8f8c3cf4"
+            ]
+        ]
+    },
+    {
+        "id": "e00a98f5fd58a2b7",
+        "type": "inject",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Humidity",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 600,
+        "wires": [
+            [
+                "b35b416017d0e55f"
+            ]
+        ]
+    },
+    {
+        "id": "606f2c806ef796b9",
+        "type": "ui_gauge",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "group": "e7749421302b9b85",
+        "order": 10,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Live Humidity",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "20",
+        "max": "40",
+        "colors": [
+            "#16d1df",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2c2aa50dcee4ddf9",
+        "type": "ui_gauge",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "group": "e7749421302b9b85",
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Live Power",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "8",
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9972afa54ef11930",
+        "type": "ui_gauge",
+        "z": "bf01f7e86a4f7388",
+        "name": "",
+        "group": "e7749421302b9b85",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Live Vibration",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "5",
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 660,
+        "y": 240,
+        "wires": []
+    }
+]
